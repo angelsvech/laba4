@@ -11,14 +11,14 @@ def zadacha2():
         s=100/a
         print(s)
     except ValueError:
-        print("введите пожалйсто число")
+        print("введите число")
     except ZeroDivisionError:
-        print("введите пожалйсто не 0 ")
+        print("введите не 0 ")
 
 
 from datetime import datetime
 def zadacha3():
-    data=input("ввелите дату дд.мм.гггг:")
+    data=input("введите дату дд.мм.гггг:")
     da=datetime.strptime(data,'%d.%m.%Y')
     day=da.day
     month=da.month
