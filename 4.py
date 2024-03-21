@@ -3,7 +3,7 @@ def zadacha1():
     if a % 3 == 0:
         print("делится")
     else:
-        print("неделится")
+        print("не делится")
 
 def zadacha2():
     try:
